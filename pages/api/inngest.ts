@@ -1,4 +1,4 @@
 import { serve } from "inngest/next";
-import helloWorld from "../../inngest/helloWorld";
+import fns from "../../inngest";
 
-export default serve("My Next.js App", [helloWorld]);
+export default serve("My Next.js App", fns);
