@@ -1,3 +1,5 @@
 import helloWorld from "./helloWorld";
 
-export default [helloWorld];
+export const functions = [helloWorld];
+
+export { inngest } from "./client";
